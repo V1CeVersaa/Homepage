@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+= Pu Wang 王普
+
+~~~
+{}{raw}
+<table class="imgtable"><tr><td>
+<img src="images/comic.jpg" alt="Pu Wang" width="240px" height="240px" />&nbsp;</td>
+<td align="left"><p>Pu Wang<br />
+Undergraduate student<br /> <a href="http://www.cs.zju.edu.cn/turingclass_en/">Turing Class</a>, <a href="http://www.en.cs.zju.edu.cn/">College of Computer Science and Technology</a>,<br />
+<a href="https://www.zju.edu.cn/english/">Zhejiang University</a><br />
+Email: puwang0508@gmail.com <br />
+<a href="https://github.com/V1CeVersaa">GitHub</a> / <a href="https://note.v1ceversaa.cc/">Notebook</a> <br /></p>
+</td></tr></table>
+~~~
+
+== About me
+
+I am a third-year undergraduate student (2023.9 -- Present) in [http://www.cs.zju.edu.cn/turingclass_en/ Turing Class], [http://ckc.zju.edu.cn/ckcen/ Chu Kochen Honors College], [https://www.zju.edu.cn/english/ Zhejiang University], pursuing a B.E. in Artificial Intelligence with an honors degree. Since March 2025 I have been a research intern at the [http://www.cad.zju.edu.cn/english.html State Key Lab of CAD&CG], advised by [https://yaoxiangding.github.io/ Prof. Yao-Xiang Ding].
+
+My research interests lie in the theory and algorithms of *sequential decision-making*, with a growing focus on *large language models* and *language agents*. I am interested in the algorithmic foundations of how language models and agents /reason, plan, optimize behavior, and make decisions/ in interactive environments. More broadly, I aim to connect ideas from reinforcement learning, imitation learning, and preference learning to modern problems in *LLM post-training*, *RLHF*, *agentic AI*, and *alignment*.
+
+=== Research directions
+
+- *Sequential decision-making.* Theory and algorithms for bandits and reinforcement learning, e.g., unified frameworks for best arm identification and regret minimization in dueling bandits.
+- *Imitation & preference learning.* Learning from partial or heterogeneous supervision, with connections to RLHF and preference-based optimization.
+- *LLMs & language agents.* How language models and agents reason, plan, and make decisions in interactive environments, and how to align them.
+
+== News
+
+- *2026.06* -- Our work on a unified framework for dueling bandits (TG-ITE) is available as a preprint on [https://arxiv.org/abs/2606.01799 arXiv].
+
+== Selected Papers
+
+~~~
+{}{raw}
+<div class="boxed">
+<table class="imgtable"><tr><td align="left"><p><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
+<br />
+<b>Pu Wang</b>, Yao-Xiang Ding
+<br />
+<i>arXiv preprint, 2026</i>
+<br />
+tl;dr: The first unified framework for N-armed dueling bandits that jointly handles best arm identification, weak regret, and strong regret under only the Condorcet-winner assumption, via a shared tree-based identification primitive paired with objective-specific exploitation.</p>
+</td></tr></table>
+</div>
+~~~
+
+For the full list, see [pub.html Publications].

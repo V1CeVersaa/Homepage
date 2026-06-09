@@ -1,0 +1,5 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "buildCommand": "cd src && python3 jemdoc -c mysite.conf index.jemdoc pub.jemdoc about.jemdoc",
+    "outputDirectory": "src"
+}

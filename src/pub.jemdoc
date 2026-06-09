@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{pub.html}, nofooter
+= Publications
+
+{{<span class="preserve-space">(* denotes equal contribution, † denotes corresponding author)</span>}}
+
+~~~
+{}{raw}
+<div class="boxed">
+<table class="imgtable"><tr><td align="left"><p><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
+<br />
+<b>Pu Wang</b>, Yao-Xiang Ding
+<br />
+<i>Preprint: </i> <a href="https://arxiv.org/abs/2606.01799">arXiv:2606.01799</a>
+<br />
+tl;dr: We propose Tree-Guided Identify-Then-Exploit (TG-ITE), the first unified framework for N-armed dueling bandits that jointly handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. A shared identification primitive, TreeAscent, exploits a tree-based tournament decomposition to locate the Condorcet winner, paired with objective-specific exploitation strategies that achieve bounds closely matching the state of the art.</p>
+</td></tr></table>
+</div>
+~~~

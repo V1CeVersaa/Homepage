@@ -1,0 +1,72 @@
+# jemdoc: menu{MENU}{about.html}, nofooter
+= About
+
+[files/CV_Pu_Wang.pdf Download PDF version]
+
+== Education
+
+~~~
+{}{raw}
+<ul class="entry-list">
+<li>
+<img class="entry-logo" src="images/zju.png" alt="Zhejiang University" />
+<div class="entry-body">
+<div class="entry-date">Sept. 2023 &mdash; June 2027 (expected)</div>
+<div class="entry-title">Zhejiang University</div>
+<div class="entry-sub">B.E. in Artificial Intelligence, Honors Degree</div>
+<div class="entry-detail"><a href="http://www.cs.zju.edu.cn/turingclass_en/">Turing Class</a> · <a href="http://www.en.cs.zju.edu.cn/">College of Computer Science &amp; Technology</a> · <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a></div>
+</div>
+</li>
+</ul>
+~~~
+
+== Research Experience
+
+~~~
+{}{raw}
+<ul class="entry-list">
+<li>
+<img class="entry-logo" src="images/zju.png" alt="Zhejiang University" />
+<div class="entry-body">
+<div class="entry-date">Mar. 2025 &mdash; Present</div>
+<div class="entry-title">Zhejiang University · <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&amp;CG</a></div>
+<div class="entry-sub">Research Intern, advised by <a href="https://yaoxiangding.github.io/">Prof. Yao-Xiang Ding</a></div>
+<div class="entry-detail">Theory and Algorithms for sequential decision-making</div>
+</div>
+</li>
+</ul>
+~~~
+
+== Awards and Honors
+
+~~~
+{}{raw}
+<ul class="awards-list">
+<li>
+<span class="award-title"><b>Zhejiang University Scholarship &mdash; Second Prize</b> (2024 &amp; 2025)</span>
+<span class="award-by">Awarded by Zhejiang University.</span>
+</li>
+<li>
+<span class="award-title"><b>Second-Class Scholarship for Elite Students in Basic Sciences</b> (2025)</span>
+<span class="award-by">Awarded by <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</span>
+</li>
+</ul>
+~~~
+
+# == Projects
+#
+# - *Five-Stage Pipelined RISC-V CPU & xv6-Inspired OS* (Mar 2024 -- May 2025). Designed a five-stage pipelined RISC-V CPU in SystemVerilog with BTB\/BHT branch prediction, a 2 KiB cache, and an Sv39 MMU; brought up a minimalist xv6-inspired OS with page-table virtual memory, trap\/interrupt handling, mode transitions, and a FAT32-style file system.
+# - *Needle: A Compiler from C to RISC-V* (Mar 2025 -- Jun 2025). Built an end-to-end compiler for a C subset using Flex and Bison (AST, semantic analysis, IR generation) and a RISC-V code generator handling calling conventions and control flow.
+
+== Skills
+
+- *Programming Languages:* Python, C\/C\+\+, SystemVerilog.
+- *Machine Learning Tools:* PyTorch, einx\/einops, Gymnasium, Stable-Baselines3.
+- *Systems & Infra:* Linux, Git, Shell Scripting, Docker, Slurm.
+- *Writing & Typesetting:* LaTeX, Typst, TikZ.
+
+I maintain an [https://note.v1ceversaa.cc/ open technical notebook] (400,000+ words) on computer science, mathematics, and AI as a long-term knowledge-building practice.
+
+== Contact
+
+Email: [mailto:puwang0508@gmail.com puwang0508@gmail.com] · [https://github.com/V1CeVersaa GitHub]
