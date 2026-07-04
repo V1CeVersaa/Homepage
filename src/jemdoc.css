@@ -648,6 +648,15 @@ ul.entry-list > li:last-child {
 	border-radius: 50%;
 	margin-top: 0.2rem;
 }
+/* Projects：左侧书影与 entry-logo 同宽对齐，右侧为不分层级的普通行 */
+.entry-cover {
+	flex: 0 0 auto;
+	width: 88px;
+	height: auto;
+	border-radius: 4px;
+	border: 1px solid var(--border);
+	margin-top: 0.2rem;
+}
 .entry-body {
 	flex: 1 1 auto;
 	min-width: 0;
@@ -687,6 +696,14 @@ ul.entry-list > li:last-child {
 .entry-detail a {
 	font-size: inherit;
 }
+.entry-line {
+	font-size: 1rem;
+	line-height: 1.55;
+	color: var(--text);
+}
+.entry-line a {
+	font-size: inherit;
+}
 
 @media (max-width: 480px) {
 	ul.entry-list > li {
@@ -695,6 +712,9 @@ ul.entry-list > li:last-child {
 	.entry-logo {
 		width: 64px;
 		height: 64px;
+	}
+	.entry-cover {
+		width: 64px;
 	}
 	.entry-title {
 		font-size: 1.2rem;

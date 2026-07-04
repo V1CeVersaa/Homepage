@@ -31,7 +31,7 @@
 <div class="entry-date">Mar. 2025 &mdash; Present</div>
 <div class="entry-title">Zhejiang University · <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&amp;CG</a></div>
 <div class="entry-sub">Research Intern, advised by <a href="https://yaoxiangding.github.io/">Prof. Yao-Xiang Ding</a></div>
-<div class="entry-detail">Theory and algorithms for sequential decision-making</div>
+<div class="entry-detail">Theory and algorithms for sequential decision making</div>
 </div>
 </li>
 </ul>
@@ -53,10 +53,22 @@
 </ul>
 ~~~
 
-# == Projects
-#
-# - *Five-Stage Pipelined RISC-V CPU & xv6-Inspired OS* (Mar 2024 -- May 2025). Designed a five-stage pipelined RISC-V CPU in SystemVerilog with BTB\/BHT branch prediction, a 2 KiB cache, and an Sv39 MMU; brought up a minimalist xv6-inspired OS with page-table virtual memory, trap\/interrupt handling, mode transitions, and a FAT32-style file system.
-# - *Needle: A Compiler from C to RISC-V* (Mar 2025 -- Jun 2025). Built an end-to-end compiler for a C subset using Flex and Bison (AST, semantic analysis, IR generation) and a RISC-V code generator handling calling conventions and control flow.
+== Projects
+
+~~~
+{}{raw}
+<ul class="entry-list">
+<li>
+<img class="entry-cover" src="images/lalu.png" alt="Linear Algebra: Left Undone" />
+<div class="entry-body">
+<div class="entry-title"><a href="https://github.com/yhwu-is/Linear-Algebra-Left-Undone">Linear Algebra: Left Undone</a></div>
+<div class="entry-line">Open-source supplementary linear algebra lecture notes of Chu Kochen Honors College, Zhejiang University.</div>
+<div class="entry-line">700+ stars on GitHub.</div>
+<div class="entry-line">Contributor: authored Chapter 24, <i>Linear Algebra and Calculus</i>.</div>
+</div>
+</li>
+</ul>
+~~~
 
 == Skills
 
