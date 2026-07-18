@@ -17,13 +17,13 @@ Email: <a href="mailto:puwang0508@gmail.com">puwang0508@gmail.com</a> <br />
 
 I am a third-year undergraduate student (Sept. 2023 --- Present) in [http://www.cs.zju.edu.cn/turingclass_en/ Turing Class], [http://ckc.zju.edu.cn/ckcen/ Chu Kochen Honors College], [https://www.zju.edu.cn/english/ Zhejiang University], pursuing a B.E. in Artificial Intelligence with an honors degree. Since March 2025 I have been a research intern at the [http://www.cad.zju.edu.cn/english.html State Key Lab of CAD&CG], advised by [https://yaoxiangding.github.io/ Prof. Yao-Xiang Ding].
 
-My research interests lie in the theory and algorithms of *sequential decision making*, with a growing focus on *large language models* and *language agents*. I am interested in the algorithmic foundations of how language models and agents /reason, plan, optimize behavior, and make decisions/ in interactive environments. More broadly, I aim to connect ideas from reinforcement learning, imitation learning, and preference learning to modern problems in *LLM post-training*, *RLHF*, *agentic AI*, and *alignment*.
+My research interests lie in the theory and algorithms of *sequential decision making*, with a growing focus on *large language models* and *language agents*. I am interested in the algorithmic foundations of how language models and agents reason, plan, learn from other agents, and adapt their behavior in interactive environments. More broadly, I aim to connect ideas from reinforcement learning, imitation learning, and machine teaching to modern problems in reasoning-oriented post-training and self-improving language agents.
 
 === Research directions
 
 - *Sequential decision making.* Theory and algorithms for bandits and reinforcement learning, e.g., unified frameworks for best arm identification and regret minimization in dueling bandits.
-- *Imitation & preference learning.* Learning from partial or heterogeneous supervision, with connections to RLHF and preference-based optimization.
-- *LLMs & language agents.* How language models and agents reason, plan, and make decisions in interactive environments, and how to align them.
+- *Imitation learning & teaching.* How agents can teach and learn behaviorally sufficient representations, especially when one agent learns from multiple heterogeneous or imperfect teachers.
+- *LLMs & language agents.* How language models and agents reason, plan, learn, and adapt in interactive environments, with an emphasis on verifiable feedback and self-improvement.
 
 == News
 
