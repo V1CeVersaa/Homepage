@@ -4,7 +4,7 @@ PORT    = 8010
 JEMDOC  = python3 jemdoc
 CONF    = mysite.conf
 SOURCES = index.jemdoc pub.jemdoc about.jemdoc
-ASSETS  = jemdoc.css images files
+ASSETS  = jemdoc.css images
 
 .PHONY: all serve clean
 

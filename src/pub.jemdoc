@@ -10,9 +10,9 @@
 <br />
 <b>Pu Wang</b>, Yao-Xiang Ding
 <br />
-<i>Preprint: </i> <a href="https://arxiv.org/abs/2606.01799">arXiv:2606.01799</a>
+<b>NeurIPS 2026</b>: The Fortieth Annual Conference on Neural Information Processing Systems &middot; <a href="https://arxiv.org/abs/2606.01799">arXiv:2606.01799</a>
 <br />
-tl;dr: We propose Tree-Guided Identify-Then-Exploit (TG-ITE), the first unified framework for N-armed dueling bandits that jointly handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. A shared identification primitive, TreeAscent, exploits a tree-based tournament decomposition to locate the Condorcet winner, paired with objective-specific exploitation strategies that achieve bounds closely matching the state of the art.</p>
+tl;dr: We propose Tree-Guided Identify-Then-Exploit (TG-ITE), the first unified framework for N-armed dueling bandits that handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. A shared tree-guided identification stage finds a high-confidence incumbent within O(<i>N</i>) comparisons, and objective-specific exploitation strategies then build on this warm start. TG-ITE achieves O(<i>N</i>) sample complexity for BAI without stronger assumptions, gives the first winner-stays-style algorithm with O(<i>N</i>) weak regret, and matches the O(<i>N</i> log <i>T</i>) strong regret of specialized methods. When BAI and weak regret are optimized jointly, it attains O(<i>N</i>) for both, removing the O(log <i>N</i>) suboptimality gap of the existing approach.</p>
 </td></tr></table>
 </div>
 ~~~
