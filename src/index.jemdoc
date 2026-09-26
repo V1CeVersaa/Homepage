@@ -17,13 +17,13 @@ Email: <a href="mailto:puwang0508@gmail.com">puwang0508@gmail.com</a> <br />
 
 I am a fourth-year undergraduate student (Sept. 2023 --- Present) in [http://www.cs.zju.edu.cn/turingclass_en/ Turing Class], [http://ckc.zju.edu.cn/ckcen/ Chu Kochen Honors College], [https://www.zju.edu.cn/english/ Zhejiang University], pursuing a B.E. in Artificial Intelligence with an honors degree. Since March 2025 I have been a research intern at the [http://www.cad.zju.edu.cn/english.html State Key Lab of CAD&CG], advised by [https://yaoxiangding.github.io/ Prof. Yao-Xiang Ding].
 
-My research interests lie in the theory and algorithms of *sequential decision making*, with a growing focus on *large language models* and *language agents*. I am interested in the algorithmic foundations of how language models and agents reason, plan, learn from other agents, and adapt their behavior in interactive environments. More broadly, I aim to connect ideas from reinforcement learning, imitation learning, and machine teaching to modern problems in reasoning-oriented post-training and self-improving language agents.
+My research interests lie in the theory and algorithms of *sequential decision making*, with a growing focus on *large language models* and *language agents*. I am interested in how agents acquire, through interaction, the knowledge they need to act well, and how that knowledge can be learned efficiently and reused across tasks and environments. More broadly, while algorithms and theory remain at the core of my work, I aim to bring principled formulations from bandits and reinforcement learning to problems related to decision making in language models and language agents.
 
 === Research directions
 
-- *Sequential decision making.* Theory and algorithms for bandits and reinforcement learning, e.g., unified frameworks for best arm identification and regret minimization in dueling bandits.
-- *Imitation learning & teaching.* How agents can teach and learn behaviorally sufficient representations, especially when one agent learns from multiple heterogeneous or imperfect teachers.
-- *LLMs & language agents.* How language models and agents reason, plan, learn, and adapt in interactive environments, with an emphasis on verifiable feedback and self-improvement.
+- *Algorithms and theory for decision making.* Bandits and reinforcement learning with provable guarantees, e.g., a unified framework for best arm identification and regret minimization in dueling bandits.
+- *Learning from indirect and incomplete information.* What agents can learn from comparisons, imperfect teachers, or partial observations, and how to learn it efficiently.
+- *Language models and language agents.* Bringing principled formulations from decision making to language models and agents, such as how they acquire and reuse knowledge through interaction.
 
 == News
 
