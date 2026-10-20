@@ -578,10 +578,132 @@ table.imgtable img {
 .boxed {
 	border: 1px solid var(--border);
 	background: var(--bg-card);
-	padding: 0.75rem 1rem 0;
+	padding: 0.75rem 1rem;
 	margin-bottom: 1rem;
 	border-radius: var(--radius);
 	box-shadow: var(--shadow);
+}
+
+/* 论文卡片：去掉末尾元素的外边距，上下留白只由 padding 决定 */
+.boxed table.imgtable {
+	margin-bottom: 0;
+}
+
+.boxed td > :last-child {
+	margin-bottom: 0;
+}
+
+/* 论文卡片：tl;dr 默认只显示一句话，点开换成详细版本（首页为中等长度，Publications 页为长版；原生 details，无需 JS） */
+p.paper-head {
+	margin-bottom: 0.25em;
+}
+
+details.tldr > summary {
+	display: block;
+	width: fit-content;
+	list-style: none;
+	cursor: pointer;
+	line-height: 1.7;
+}
+
+details.tldr > summary::-webkit-details-marker {
+	display: none;
+}
+
+details.tldr > summary:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+.tldr-label {
+	display: inline-block;
+	margin-right: 0.45em;
+	padding: 0 0.55em;
+	border-radius: 999px;
+	background: var(--accent-soft);
+	color: var(--accent);
+	font-family: var(--font-sans);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	line-height: 1.6;
+	white-space: nowrap;
+}
+
+.tldr-label::after {
+	content: "";
+	display: inline-block;
+	width: 0.38em;
+	height: 0.38em;
+	margin-left: 0.45em;
+	border-right: 1.5px solid currentColor;
+	border-bottom: 1.5px solid currentColor;
+	transform: translateY(-0.12em) rotate(-45deg);
+	transition: transform 0.15s ease;
+}
+
+details.tldr[open] .tldr-label::after {
+	transform: translateY(-0.2em) rotate(45deg);
+}
+
+details.tldr > summary:hover .tldr-label {
+	color: var(--accent-hover);
+}
+
+details.tldr[open] .tldr-short {
+	display: none;
+}
+
+details.tldr > p {
+	margin: 0;
+}
+
+/* 展开时标签左浮动，正文第一行接在标签右侧，与收起时的排版一致 */
+details.tldr[open] > summary {
+	float: left;
+	margin-right: 0.45em;
+}
+
+details.tldr[open] .tldr-label {
+	margin-right: 0;
+}
+
+/* 可折叠小节（如 Research directions）：小标题即开关，点击范围只限标题文字和箭头 */
+details.fold-section > summary {
+	display: block;
+	width: fit-content;
+	list-style: none;
+	cursor: pointer;
+}
+
+details.fold-section > summary::-webkit-details-marker {
+	display: none;
+}
+
+details.fold-section > summary:hover h3 {
+	color: var(--accent);
+}
+
+details.fold-section > summary:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+details.fold-section > summary h3::after {
+	content: "";
+	display: inline-block;
+	width: 0.4em;
+	height: 0.4em;
+	margin-left: 0.55em;
+	border-right: 1.5px solid var(--text-muted);
+	border-bottom: 1.5px solid var(--text-muted);
+	transform: translateY(-0.12em) rotate(-45deg);
+	transition: transform 0.15s ease;
+}
+
+details.fold-section[open] > summary h3::after {
+	transform: translateY(-0.25em) rotate(45deg);
 }
 
 .topic-head {

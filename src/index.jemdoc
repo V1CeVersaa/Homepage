@@ -19,14 +19,24 @@ I am a fourth-year undergraduate student (Sep 2023 --- Present) in [http://www.c
 
 My research interests lie in the theory and algorithms of *sequential decision making*, with a growing focus on *large language models* and *language agents*. I am interested in how agents acquire, through interaction, the knowledge they need to act well, and how that knowledge can be learned efficiently and reused across tasks and environments. More broadly, while algorithms and theory remain at the core of my work, I aim to bring principled formulations from bandits and reinforcement learning to problems related to decision making in language models and language agents.
 
-=== Research directions
-
-- *Algorithms and theory for decision making.* Bandits and reinforcement learning with provable guarantees, e.g., a unified framework for best arm identification and regret minimization in dueling bandits.
-- *Learning from indirect and incomplete information.* What agents can learn from comparisons, imperfect teachers, or partial observations, and how to learn it efficiently.
-- *Language models and language agents.* Bringing principled formulations from decision making to language models and agents, such as how they acquire and reuse knowledge through interaction.
+~~~
+{}{raw}
+<details class="fold-section">
+<summary><h3>Research directions</h3></summary>
+<ul>
+<li><p><b>Algorithms and theory for decision making.</b> Provably efficient algorithms for sequential decision making under uncertainty.</p>
+</li>
+<li><p><b>Learning from indirect and incomplete information.</b> What agents can learn from comparisons, imperfect teachers, or partial observations, and how to learn it efficiently.</p>
+</li>
+<li><p><b>Language models and language agents.</b> Bringing principled formulations from decision making to language models and agents, such as how they acquire and reuse knowledge through interaction.</p>
+</li>
+</ul>
+</details>
+~~~
 
 == News
 
+- *October 2026* --- Our work on knowledge transfer in world modeling with functional role abstractions (RoleWorld) is available as a preprint on [https://arxiv.org/abs/2610.13172 arXiv].
 - *September 2026* --- Our paper on a unified framework for dueling bandits (TG-ITE) is accepted to NeurIPS 2026.
 - *June 2026* --- Our work on a unified framework for dueling bandits (TG-ITE) is available as a preprint on [https://arxiv.org/abs/2606.01799 arXiv].
 
@@ -35,13 +45,27 @@ My research interests lie in the theory and algorithms of *sequential decision m
 ~~~
 {}{raw}
 <div class="boxed">
-<table class="imgtable"><tr><td align="left"><p><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
+<table class="imgtable"><tr><td align="left"><p class="paper-head"><a href="https://arxiv.org/abs/2610.13172"><b>RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions</b></a>
+<br />
+Boyuan Xiao, <b>Pu Wang</b>, Ji Feng, Yao-Xiang Ding
+<br />
+<b>Preprint</b>: arXiv:2610.13172</p>
+<details class="tldr">
+<summary><span class="tldr-label">tl;dr</span><span class="tldr-short">Knowledge transfer in world modeling for LLM agents, via functional role abstractions.</span></summary>
+<p>A symbolic world modeling approach for LLM agents that represents how objects behave with functional role abstractions, i.e., reusable role prototypes with environment-specific parameter values. In a new environment, the actor LLM refines role assignments and parameter estimates online from action feedback, without LLM parameter updates. Experiments on the MARS benchmark show robust generalization across environments with significantly altered object behavior.</p>
+</details>
+</td></tr></table>
+</div>
+<div class="boxed">
+<table class="imgtable"><tr><td align="left"><p class="paper-head"><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
 <br />
 <b>Pu Wang</b>, Yao-Xiang Ding
 <br />
-<b>NeurIPS 2026</b>: The Fortieth Annual Conference on Neural Information Processing Systems
-<br />
-tl;dr: The first unified framework for N-armed dueling bandits that jointly handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. It achieves O(<i>N</i>) sample complexity for BAI and O(<i>N</i>) weak regret, and removes the O(log <i>N</i>) suboptimality gap of the existing approach when optimizing both jointly.</p>
+<b>NeurIPS 2026</b>: The Fortieth Annual Conference on Neural Information Processing Systems</p>
+<details class="tldr">
+<summary><span class="tldr-label">tl;dr</span><span class="tldr-short">A unified framework for best arm identification and weak/strong regret in dueling bandits.</span></summary>
+<p>The first unified framework for N-armed dueling bandits that jointly handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. It achieves O(<i>N</i>) sample complexity for BAI and O(<i>N</i>) weak regret, and removes the O(log <i>N</i>) suboptimality gap of the existing approach when optimizing both jointly.</p>
+</details>
 </td></tr></table>
 </div>
 ~~~

@@ -3,16 +3,32 @@
 
 {{<span class="preserve-space">(* denotes equal contribution, † denotes corresponding author)</span>}}
 
+# The RoleWorld project page is not public yet (2026-10-20). Once it is, append this to its venue line:
+#   &middot; <a href="https://future-item.github.io/RoleWorld">Project Page</a>
 ~~~
 {}{raw}
 <div class="boxed">
-<table class="imgtable"><tr><td align="left"><p><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
+<table class="imgtable"><tr><td align="left"><p class="paper-head"><a href="https://arxiv.org/abs/2610.13172"><b>RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions</b></a>
+<br />
+Boyuan Xiao, <b>Pu Wang</b>, Ji Feng, Yao-Xiang Ding
+<br />
+<b>Preprint</b> &middot; <a href="https://arxiv.org/abs/2610.13172">arXiv:2610.13172</a></p>
+<details class="tldr">
+<summary><span class="tldr-label">tl;dr</span><span class="tldr-short">Knowledge transfer in world modeling for LLM agents, via functional role abstractions.</span></summary>
+<p>We introduce RoleWorld, a symbolic world modeling approach for LLM agents that uses functional role abstractions, i.e., reusable role prototypes with environment-specific parameter values, to represent how objects behave in interactions. From interaction trajectories, a teacher LLM extracts role prototypes and executable transition rules defined over role instances, together with a skill that guides the actor LLM to use role information in decision making. In a target world, the actor works without the teacher: it actively tests role hypotheses through interaction when uncertainty about them affects the current decision, and refines role assignments and parameter estimates online from action feedback, with no LLM parameter updates. Experiments on the MARS benchmark show robust generalization across environments with significantly altered object behavior.</p>
+</details>
+</td></tr></table>
+</div>
+<div class="boxed">
+<table class="imgtable"><tr><td align="left"><p class="paper-head"><a href="https://arxiv.org/abs/2606.01799"><b>Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits</b></a>
 <br />
 <b>Pu Wang</b>, Yao-Xiang Ding
 <br />
-<b>NeurIPS 2026</b>: The Fortieth Annual Conference on Neural Information Processing Systems &middot; <a href="https://arxiv.org/abs/2606.01799">arXiv:2606.01799</a>
-<br />
-tl;dr: We propose Tree-Guided Identify-Then-Exploit (TG-ITE), the first unified framework for N-armed dueling bandits that handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. A shared tree-guided identification stage finds a high-confidence incumbent within O(<i>N</i>) comparisons, and objective-specific exploitation strategies then build on this warm start. TG-ITE achieves O(<i>N</i>) sample complexity for BAI without stronger assumptions, gives the first winner-stays-style algorithm with O(<i>N</i>) weak regret, and matches the O(<i>N</i> log <i>T</i>) strong regret of specialized methods. When BAI and weak regret are optimized jointly, it attains O(<i>N</i>) for both, removing the O(log <i>N</i>) suboptimality gap of the existing approach.</p>
+<b>NeurIPS 2026</b>: The Fortieth Annual Conference on Neural Information Processing Systems &middot; <a href="https://arxiv.org/abs/2606.01799">arXiv:2606.01799</a></p>
+<details class="tldr">
+<summary><span class="tldr-label">tl;dr</span><span class="tldr-short">A unified framework for best arm identification and weak/strong regret in dueling bandits.</span></summary>
+<p>We propose Tree-Guided Identify-Then-Exploit (TG-ITE), the first unified framework for N-armed dueling bandits that handles best arm identification (BAI), weak regret, and strong regret under only the Condorcet-winner assumption. A shared tree-guided identification stage finds a high-confidence incumbent within O(<i>N</i>) comparisons, and objective-specific exploitation strategies then build on this warm start. TG-ITE achieves O(<i>N</i>) sample complexity for BAI without stronger assumptions, gives the first winner-stays-style algorithm with O(<i>N</i>) weak regret, and matches the O(<i>N</i> log <i>T</i>) strong regret of specialized methods. When BAI and weak regret are optimized jointly, it attains O(<i>N</i>) for both, removing the O(log <i>N</i>) suboptimality gap of the existing approach.</p>
+</details>
 </td></tr></table>
 </div>
 ~~~
